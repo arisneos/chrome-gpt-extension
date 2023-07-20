@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function copyToChatGPT(text) {
   // Replace 'YOUR_API_ENDPOINT_URL' with the actual API endpoint URL
-  const apiUrl = 'https://api.openai.com/v1/chat/completions';
+  const apiUrl = 'YOUR_API_ENDPOINT_URL';
 
   // Prepare the request payload
   const payload = {
@@ -33,7 +33,7 @@ function copyToChatGPT(text) {
     headers: {
       'Content-Type': 'application/json',
       // Replace 'YOUR_API_KEY' with the actual API key (if required)
-      'Authorization': 'Bearer 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',
+      'Authorization': 'Bearer YOUR_API_KEY',
     },
     body: JSON.stringify(payload),
   })
