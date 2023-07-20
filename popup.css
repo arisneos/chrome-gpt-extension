@@ -8,14 +8,5 @@
     height: 200px;
     min-width: 100%;
     min-height: auto;
-    color: #ffffff;
-    background-color: #030303;
-}
-
-.responseContainer {
-    background-color: f3f3f3;
-}
-
-.responseText{
-    color: #030303;
+    color: #333333
 }

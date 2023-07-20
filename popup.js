@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function copyToChatGPT(text) {
   // Replace 'YOUR_API_ENDPOINT_URL' with the actual API endpoint URL
-  const apiUrl = 'https://api.openai.com/v1/models';
+  const apiUrl = 'https://api.openai.com/v1/chat/completions';
 
   // Prepare the request payload
   const payload = {
