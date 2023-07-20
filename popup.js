@@ -33,7 +33,7 @@ function copyToChatGPT(text) {
     headers: {
       'Content-Type': 'application/json',
       // Replace 'YOUR_API_KEY' with the actual API key (if required)
-      'Authorization': 'Bearer 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',
+      'Authorization': 'Bearer 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',
     },
     body: JSON.stringify(payload),
   })
